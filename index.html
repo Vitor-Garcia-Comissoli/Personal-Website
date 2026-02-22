@@ -23,15 +23,19 @@
   ════════════════════════════════════════════════════════════════ -->
   <nav class="nav" aria-label="Main navigation">
     <div class="nav__inner">
-      <a href="#hero" class="nav__logo">Vítor's Personal Website<span>.</span></a>
+      <a href="#hero" class="nav__logo" data-i18n-html="nav-logo">Vítor's Personal Website<span>.</span></a>
       <ul class="nav__links" role="list">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact" class="nav__cta">Contact</a></li>
+        <li><a href="#about" data-i18n="nav-about">About</a></li>
+        <li><a href="#skills" data-i18n="nav-skills">Skills</a></li>
+        <li><a href="#experience" data-i18n="nav-experience">Experience</a></li>
+        <li><a href="#research" data-i18n="nav-research">Research</a></li>
+        <li><a href="#education" data-i18n="nav-education">Education</a></li>
+        <li><a href="#contact" class="nav__cta" data-i18n="nav-contact">Contact</a></li>
       </ul>
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="en" aria-label="Switch to English">🇺🇸 EN</button>
+        <button class="lang-btn" data-lang="pt" aria-label="Mudar para Português">🇧🇷 PT</button>
+      </div>
       <button class="nav__hamburger" aria-label="Toggle menu" aria-expanded="false">
         <span></span>
         <span></span>
@@ -47,18 +51,18 @@
     <div class="container">
       <div class="hero__inner">
         <div class="hero__content">
-          <div class="hero__badge">Available for opportunities</div>
+          <div class="hero__badge" data-i18n="hero-badge">Available for opportunities</div>
           <h1 class="hero__name">Vítor Garcia Comissoli</h1>
-          <p class="hero__title">Statistics Graduate &amp; Data Analyst</p>
-          <p class="hero__description">
+          <p class="hero__title" data-i18n="hero-title">Statistics Graduate &amp; Data Analyst</p>
+          <p class="hero__description" data-i18n="hero-description">
             Bachelor's degree in Statistics from IME-USP. Former undergraduate
             researcher in Urban Acoustics at FAU USP and Data Team Lead at
             IME Jr. Passionate about applying statistics to real-world problems
             and collaborating with innovative teams.
           </p>
           <div class="hero__actions">
-            <a href="#contact" class="btn btn-primary">Get in touch</a>
-            <a href="#research" class="btn btn-outline">View my work</a>
+            <a href="#contact" class="btn btn-primary" data-i18n="hero-cta-primary">Get in touch</a>
+            <a href="#research" class="btn btn-outline" data-i18n="hero-cta-secondary">View my work</a>
           </div>
         </div>
 
@@ -77,12 +81,12 @@
   ════════════════════════════════════════════════════════════════ -->
   <section class="section" id="about">
     <div class="container">
-      <p class="section-label">Who I am</p>
-      <h2 class="section-title">About Me</h2>
+      <p class="section-label" data-i18n="about-label">Who I am</p>
+      <h2 class="section-title" data-i18n="about-title">About Me</h2>
 
       <div class="about__grid">
         <div class="about__text reveal">
-          <p>
+          <p data-i18n="about-p1">
             As a statistics graduate from IME USP, I possess a great interest
             in applying statistics to address real-world problems. Drawing from
             my previous background as both a team member and team lead at IME Jr
@@ -93,7 +97,7 @@
             acquired knowledge to further develop my data analysis skills and
             collaborate with innovative and diverse teams.
           </p>
-          <p>
+          <p data-i18n="about-p2">
             I'm fluent in English (C2 Cambridge certification) and have
             professional working proficiency in Spanish. I enjoy blending
             mathematical thinking with practical problem-solving to deliver
@@ -103,19 +107,19 @@
           <div class="about__stats">
             <div class="stat">
               <div class="stat__number">3+</div>
-              <div class="stat__label">Years Experience</div>
+              <div class="stat__label" data-i18n="stat-years">Years Experience</div>
             </div>
             <div class="stat">
               <div class="stat__number">3</div>
-              <div class="stat__label">Companies</div>
+              <div class="stat__label" data-i18n="stat-companies">Companies</div>
             </div>
             <div class="stat">
               <div class="stat__number">5+</div>
-              <div class="stat__label">Certifications</div>
+              <div class="stat__label" data-i18n="stat-certs">Certifications</div>
             </div>
             <div class="stat">
               <div class="stat__number">1</div>
-              <div class="stat__label">Publication</div>
+              <div class="stat__label" data-i18n="stat-pub">Publication</div>
             </div>
           </div>
         </div>
@@ -135,14 +139,14 @@
   ════════════════════════════════════════════════════════════════ -->
   <section class="section" id="skills">
     <div class="container">
-      <p class="section-label">What I work with</p>
-      <h2 class="section-title">Skills &amp; Technologies</h2>
-      <p class="section-subtitle">
+      <p class="section-label" data-i18n="skills-label">What I work with</p>
+      <h2 class="section-title" data-i18n="skills-title">Skills &amp; Technologies</h2>
+      <p class="section-subtitle" data-i18n="skills-subtitle">
         A curated selection of tools, technologies, and competencies I use regularly.
       </p>
 
       <div class="skills__category reveal">
-        <p class="skills__category-title">Programming Languages</p>
+        <p class="skills__category-title" data-i18n="skills-cat-prog">Programming Languages</p>
         <div class="skills__tags">
           <span class="skill-tag">R</span>
           <span class="skill-tag">Python</span>
@@ -152,37 +156,37 @@
       </div>
 
       <div class="skills__category reveal">
-        <p class="skills__category-title">Data Science &amp; Analytics</p>
+        <p class="skills__category-title" data-i18n="skills-cat-data">Data Science &amp; Analytics</p>
         <div class="skills__tags">
-          <span class="skill-tag">Data Science</span>
-          <span class="skill-tag">Data Analytics</span>
-          <span class="skill-tag">Machine Learning</span>
-          <span class="skill-tag">Predictive Modeling</span>
-          <span class="skill-tag">Statistical Data Analysis</span>
-          <span class="skill-tag">Statistical Programming</span>
-          <span class="skill-tag">Data Cleaning &amp; Manipulation</span>
+          <span class="skill-tag" data-i18n="skill-data-science">Data Science</span>
+          <span class="skill-tag" data-i18n="skill-data-analytics">Data Analytics</span>
+          <span class="skill-tag" data-i18n="skill-ml">Machine Learning</span>
+          <span class="skill-tag" data-i18n="skill-pred-model">Predictive Modeling</span>
+          <span class="skill-tag" data-i18n="skill-stat-analysis">Statistical Data Analysis</span>
+          <span class="skill-tag" data-i18n="skill-stat-prog">Statistical Programming</span>
+          <span class="skill-tag" data-i18n="skill-data-clean">Data Cleaning &amp; Manipulation</span>
           <span class="skill-tag">Business Intelligence (BI)</span>
           <span class="skill-tag">Dashboards</span>
         </div>
       </div>
 
       <div class="skills__category reveal">
-        <p class="skills__category-title">Tools &amp; Soft Skills</p>
+        <p class="skills__category-title" data-i18n="skills-cat-tools">Tools &amp; Soft Skills</p>
         <div class="skills__tags">
           <span class="skill-tag">Microsoft Office</span>
-          <span class="skill-tag">Mathematical Thinking</span>
-          <span class="skill-tag">Problem-Solving</span>
-          <span class="skill-tag">Communication</span>
-          <span class="skill-tag">Teamwork</span>
+          <span class="skill-tag" data-i18n="skill-math-thinking">Mathematical Thinking</span>
+          <span class="skill-tag" data-i18n="skill-problem-solving">Problem-Solving</span>
+          <span class="skill-tag" data-i18n="skill-communication">Communication</span>
+          <span class="skill-tag" data-i18n="skill-teamwork">Teamwork</span>
         </div>
       </div>
 
       <div class="skills__category reveal">
-        <p class="skills__category-title">Languages</p>
+        <p class="skills__category-title" data-i18n="skills-cat-lang">Languages</p>
         <div class="skills__tags">
-          <span class="skill-tag">Portuguese (Native)</span>
-          <span class="skill-tag">English (C2 – Cambridge Certificate)</span>
-          <span class="skill-tag">Spanish (Working Proficiency)</span>
+          <span class="skill-tag" data-i18n="skill-portuguese">Portuguese (Native)</span>
+          <span class="skill-tag" data-i18n="skill-english">English (C2 – Cambridge Certificate)</span>
+          <span class="skill-tag" data-i18n="skill-spanish">Spanish (Working Proficiency)</span>
         </div>
       </div>
     </div>
@@ -193,9 +197,9 @@
   ════════════════════════════════════════════════════════════════ -->
   <section class="section" id="experience">
     <div class="container">
-      <p class="section-label">Where I've worked</p>
-      <h2 class="section-title">Experience</h2>
-      <p class="section-subtitle">
+      <p class="section-label" data-i18n="exp-label">Where I've worked</p>
+      <h2 class="section-title" data-i18n="exp-title">Experience</h2>
+      <p class="section-subtitle" data-i18n="exp-subtitle">
         A timeline of my professional journey and the impact I've made.
       </p>
 
@@ -203,51 +207,51 @@
 
         <div class="timeline__item reveal">
           <div class="timeline__header">
-            <span class="timeline__role">Internship in Data Analytics</span>
-            <span class="timeline__period">May 2024 – May 2025</span>
+            <span class="timeline__role" data-i18n="exp-maxxi-role">Internship in Data Analytics</span>
+            <span class="timeline__period" data-i18n="exp-maxxi-period">May 2024 – May 2025</span>
           </div>
-          <p class="timeline__company">Maxxi · São Paulo, Brazil</p>
+          <p class="timeline__company" data-i18n="exp-maxxi-company">Maxxi · São Paulo, Brazil</p>
           <ul class="timeline__description">
-            <li>Worked as a Data Analytics intern at Maxxi, a tech consulting company.</li>
-            <li>Applied data analysis techniques to support business decision-making.</li>
-            <li>Gained hands-on experience with real-world data pipelines and reporting tools.</li>
+            <li data-i18n="exp-maxxi-li1">Worked as a Data Analytics intern at Maxxi, a tech consulting company.</li>
+            <li data-i18n="exp-maxxi-li2">Applied data analysis techniques to support business decision-making.</li>
+            <li data-i18n="exp-maxxi-li3">Gained hands-on experience with real-world data pipelines and reporting tools.</li>
           </ul>
         </div>
 
         <div class="timeline__item reveal">
           <div class="timeline__header">
-            <span class="timeline__role">Undergraduate Researcher – PIBIC Research Grant</span>
-            <span class="timeline__period">May 2022 – December 2024</span>
+            <span class="timeline__role" data-i18n="exp-fau-role">Undergraduate Researcher – PIBIC Research Grant</span>
+            <span class="timeline__period" data-i18n="exp-fau-period">May 2022 – December 2024</span>
           </div>
-          <p class="timeline__company">FAU USP · São Paulo, Brazil</p>
+          <p class="timeline__company" data-i18n="exp-fau-company">FAU USP · São Paulo, Brazil</p>
           <ul class="timeline__description">
-            <li>Conducted research in Urban Acoustics as part of a PIBIC (CNPq) undergraduate research grant.</li>
-            <li>Co-authored a scientific paper published in the <em>Applied Acoustics</em> Journal (Volume 218, March 2024) on translating soundscape attributes using Twitter/X data for the Portuguese language.</li>
-            <li>Applied statistical and computational methods to acoustic data collected in urban environments.</li>
+            <li data-i18n="exp-fau-li1">Conducted research in Urban Acoustics as part of a PIBIC (CNPq) undergraduate research grant.</li>
+            <li data-i18n-html="exp-fau-li2">Co-authored a scientific paper published in the <em>Applied Acoustics</em> Journal (Volume 218, March 2024) on translating soundscape attributes using Twitter/X data for the Portuguese language.</li>
+            <li data-i18n="exp-fau-li3">Applied statistical and computational methods to acoustic data collected in urban environments.</li>
           </ul>
         </div>
 
         <div class="timeline__item reveal">
           <div class="timeline__header">
-            <span class="timeline__role">Data Team Lead · HR Director · Data &amp; Computing Member</span>
-            <span class="timeline__period">May 2022 – January 2024</span>
+            <span class="timeline__role" data-i18n="exp-imejr-role">Data Team Lead · HR Director · Data &amp; Computing Member</span>
+            <span class="timeline__period" data-i18n="exp-imejr-period">May 2022 – January 2024</span>
           </div>
-          <p class="timeline__company">IME Jr · São Paulo, Brazil</p>
+          <p class="timeline__company" data-i18n="exp-imejr-company">IME Jr · São Paulo, Brazil</p>
           <ul class="timeline__description">
-            <li><strong>Data Team Lead</strong> (Jul 2023 – Jan 2024): Led the data consulting team, managed client projects, and mentored junior members.</li>
-            <li><strong>Human Resources Director</strong> (Jan 2023 – Jul 2023): Oversaw recruitment, onboarding, and people-management processes for the junior company.</li>
-            <li><strong>Data &amp; Computing Team Member</strong> (May 2022 – Jan 2023): Delivered data analysis and statistical consulting projects for external clients.</li>
+            <li data-i18n-html="exp-imejr-li1"><strong>Data Team Lead</strong> (Jul 2023 – Jan 2024): Led the data consulting team, managed client projects, and mentored junior members.</li>
+            <li data-i18n-html="exp-imejr-li2"><strong>Human Resources Director</strong> (Jan 2023 – Jul 2023): Oversaw recruitment, onboarding, and people-management processes for the junior company.</li>
+            <li data-i18n-html="exp-imejr-li3"><strong>Data &amp; Computing Team Member</strong> (May 2022 – Jan 2023): Delivered data analysis and statistical consulting projects for external clients.</li>
           </ul>
         </div>
 
         <div class="timeline__item reveal">
           <div class="timeline__header">
-            <span class="timeline__role">Marketing &amp; Audiovisual Volunteer</span>
-            <span class="timeline__period">March 2024 – November 2024</span>
+            <span class="timeline__role" data-i18n="exp-vol-role">Marketing &amp; Audiovisual Volunteer</span>
+            <span class="timeline__period" data-i18n="exp-vol-period">March 2024 – November 2024</span>
           </div>
-          <p class="timeline__company">XVII aMostra Estatística IME-USP · São Paulo, Brazil</p>
+          <p class="timeline__company" data-i18n="exp-vol-company">XVII aMostra Estatística IME-USP · São Paulo, Brazil</p>
           <ul class="timeline__description">
-            <li>Volunteered in the marketing and audiovisual team for the XVII aMostra Estatística, a major statistics event at IME-USP.</li>
+            <li data-i18n="exp-vol-li1">Volunteered in the marketing and audiovisual team for the XVII aMostra Estatística, a major statistics event at IME-USP.</li>
           </ul>
         </div>
 
@@ -260,9 +264,9 @@
   ════════════════════════════════════════════════════════════════ -->
   <section class="section" id="research">
     <div class="container">
-      <p class="section-label">Research &amp; credentials</p>
-      <h2 class="section-title">Publications &amp; Certifications</h2>
-      <p class="section-subtitle">
+      <p class="section-label" data-i18n="research-label">Research &amp; credentials</p>
+      <h2 class="section-title" data-i18n="research-title">Publications &amp; Certifications</h2>
+      <p class="section-subtitle" data-i18n="research-subtitle">
         Selected academic publications and professional certifications I've earned.
       </p>
 
@@ -272,11 +276,11 @@
           <div class="project-card__header">
             <span class="project-card__icon">📄</span>
             <div class="project-card__links">
-              <a href="https://www.sciencedirect.com/journal/applied-acoustics/vol/218/suppl/C" target="_blank" rel="noopener">Journal ↗</a>
+              <a href="https://www.sciencedirect.com/journal/applied-acoustics/vol/218/suppl/C" target="_blank" rel="noopener" data-i18n="research-journal-link">Journal ↗</a>
             </div>
           </div>
-          <h3 class="project-card__title">Scientific Publication</h3>
-          <p class="project-card__description">
+          <h3 class="project-card__title" data-i18n="pub-title">Scientific Publication</h3>
+          <p class="project-card__description" data-i18n-html="pub-description">
             "A methodological approach for translating soundscape attributes using Twitter data: A Portuguese language case study" — <em>Applied Acoustics</em> Journal, Volume 218, March 2024.
           </p>
           <div class="project-card__stack">
@@ -292,8 +296,8 @@
           <div class="project-card__header">
             <span class="project-card__icon">🎓</span>
           </div>
-          <h3 class="project-card__title">Language Certification</h3>
-          <p class="project-card__description">
+          <h3 class="project-card__title" data-i18n="lang-cert-title">Language Certification</h3>
+          <p class="project-card__description" data-i18n="lang-cert-description">
             Certificate in Advanced English (CAE) – Level C2, issued by Cambridge University. Demonstrates full professional and academic fluency in English.
           </p>
           <div class="project-card__stack">
@@ -307,8 +311,8 @@
           <div class="project-card__header">
             <span class="project-card__icon">📊</span>
           </div>
-          <h3 class="project-card__title">Technical Certifications</h3>
-          <p class="project-card__description">
+          <h3 class="project-card__title" data-i18n="tech-cert-title">Technical Certifications</h3>
+          <p class="project-card__description" data-i18n-html="tech-cert-description">
             Certificate in R for Data Science: Analysis &amp; Visualization (LinkedIn Learning) · Certificate in Applied Machine Learning (Hype – Data Science) · Certificate in Business Intelligence (Hype – Data Science) · Certificate in RMarkdown (IME Jr).
           </p>
           <div class="project-card__stack">
@@ -329,27 +333,27 @@
   ════════════════════════════════════════════════════════════════ -->
   <section class="section" id="education">
     <div class="container">
-      <p class="section-label">Academic background</p>
-      <h2 class="section-title">Education</h2>
+      <p class="section-label" data-i18n="edu-label">Academic background</p>
+      <h2 class="section-title" data-i18n="edu-title">Education</h2>
 
       <div class="grid-2">
 
         <div class="card reveal">
           <div class="edu-card__header">
-            <span class="edu-card__degree">Bachelor's degree in Statistics</span>
+            <span class="edu-card__degree" data-i18n="edu-imesp-degree">Bachelor's degree in Statistics</span>
             <span class="edu-card__period">Jan 2020 – Dec 2025</span>
           </div>
           <p class="edu-card__institution">Instituto de Matemática e Estatística – Universidade de São Paulo (IME-USP)</p>
-          <p class="edu-card__detail">Specialisation in applied statistics, statistical computing, and data analysis.</p>
+          <p class="edu-card__detail" data-i18n="edu-imesp-detail">Specialisation in applied statistics, statistical computing, and data analysis.</p>
         </div>
 
         <div class="card reveal">
           <div class="edu-card__header">
-            <span class="edu-card__degree">High School Diploma</span>
+            <span class="edu-card__degree" data-i18n="edu-school-degree">High School Diploma</span>
             <span class="edu-card__period">Jan 2009 – Dec 2019</span>
           </div>
           <p class="edu-card__institution">Colégio Rainha da Paz</p>
-          <p class="edu-card__detail">São Paulo, Brazil</p>
+          <p class="edu-card__detail" data-i18n="edu-school-detail">São Paulo, Brazil</p>
         </div>
 
       </div>
@@ -361,12 +365,12 @@
   ════════════════════════════════════════════════════════════════ -->
   <section class="section" id="contact">
     <div class="container">
-      <p class="section-label">Let's talk</p>
-      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-label" data-i18n="contact-label">Let's talk</p>
+      <h2 class="section-title" data-i18n="contact-title">Get In Touch</h2>
 
       <div class="contact__wrapper">
         <div>
-          <p class="contact__text">
+          <p class="contact__text" data-i18n="contact-text">
             Whether you have an opportunity, a question, or just want to say hi
             — my inbox is always open. I'll do my best to get back to you
             promptly!
@@ -411,18 +415,18 @@
         <div class="contact__form reveal">
           <form>
             <div class="form-group">
-              <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+              <label for="name" data-i18n="form-name-label">Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Doe" data-i18n-placeholder="form-name-placeholder" required />
             </div>
             <div class="form-group">
-              <label for="email">Email</label>
+              <label for="email" data-i18n="form-email-label">Email</label>
               <input type="email" id="email" name="email" placeholder="jane@example.com" required />
             </div>
             <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" placeholder="Hi, I'd like to …" required></textarea>
+              <label for="message" data-i18n="form-message-label">Message</label>
+              <textarea id="message" name="message" placeholder="Hi, I'd like to …" data-i18n-placeholder="form-message-placeholder" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary" style="width:100%">Send Message</button>
+            <button type="submit" class="btn btn-primary" style="width:100%" data-i18n="form-submit">Send Message</button>
           </form>
         </div>
       </div>
@@ -435,7 +439,7 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__inner">
-        <p class="footer__copy">© <span id="year"></span> Vítor Garcia Comissoli. All rights reserved.</p>
+        <p class="footer__copy">© <span id="year"></span> Vítor Garcia Comissoli. <span data-i18n="footer-rights">All rights reserved.</span></p>
         <div class="footer__socials">
           <a href="https://github.com/Vitor-Garcia-Comissoli" target="_blank" rel="noopener">GitHub</a>
           <a href="https://www.linkedin.com/in/v%C3%ADtor-garcia-comissoli" target="_blank" rel="noopener">LinkedIn</a>
