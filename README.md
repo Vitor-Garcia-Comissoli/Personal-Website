@@ -1,2 +1,2 @@
-# Personal-Website
-A repository for my personal website hosted by Github Pages
+# Personal Website
+Repository for my personal website hosted by GitHub Pages
