@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Your Name — Professional Portfolio" />
+  <title>Your Name | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════════════════════════ -->
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="#hero" class="nav__logo">YN<span>.</span></a>
+      <ul class="nav__links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="nav__cta">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="hero section" id="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <div class="hero__badge">Available for opportunities</div>
+          <!-- ✏️  Replace "Your Name" with your full name -->
+          <h1 class="hero__name">Your Name</h1>
+          <!-- ✏️  Replace with your professional title -->
+          <p class="hero__title">Software Engineer &amp; Problem Solver</p>
+          <!-- ✏️  Replace with a short personal pitch (2–3 sentences) -->
+          <p class="hero__description">
+            I craft elegant solutions to complex problems, building
+            performant and user-friendly software with a focus on clean
+            architecture and great developer experience.
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn-primary">Get in touch</a>
+            <a href="#projects" class="btn btn-outline">View my work</a>
+          </div>
+        </div>
+
+        <div class="hero__avatar" aria-hidden="true">
+          <div class="avatar-ring">
+            <!-- ✏️  Replace the emoji with <img src="assets/avatar.jpg" alt="Your Name"> once you have a photo -->
+            <div class="avatar-placeholder">👤</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       ABOUT
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="section" id="about">
+    <div class="container">
+      <p class="section-label">Who I am</p>
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about__grid">
+        <div class="about__text reveal">
+          <!-- ✏️  Replace the paragraphs below with your own bio -->
+          <p>
+            Hi! I'm a passionate software engineer with a strong background in
+            building full-stack web applications and distributed systems. I
+            thrive in collaborative environments and enjoy turning complex
+            requirements into elegant, maintainable code.
+          </p>
+          <p>
+            When I'm not coding, you'll find me exploring new technologies,
+            contributing to open-source projects, or hiking somewhere scenic.
+            I believe great software starts with great communication and a
+            deep understanding of user needs.
+          </p>
+
+          <!-- ✏️  Update the numbers to reflect your real career highlights -->
+          <div class="about__stats">
+            <div class="stat">
+              <div class="stat__number">3+</div>
+              <div class="stat__label">Years Experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat__number">20+</div>
+              <div class="stat__label">Projects Delivered</div>
+            </div>
+            <div class="stat">
+              <div class="stat__number">10+</div>
+              <div class="stat__label">Technologies</div>
+            </div>
+            <div class="stat">
+              <div class="stat__number">5+</div>
+              <div class="stat__label">Happy Clients</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__image" aria-hidden="true">
+          <div class="about__img-box">
+            <!-- ✏️  Replace emoji with <img src="assets/about-photo.jpg" alt=""> once ready -->
+            🖥️
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       SKILLS
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="section" id="skills">
+    <div class="container">
+      <p class="section-label">What I work with</p>
+      <h2 class="section-title">Skills &amp; Technologies</h2>
+      <p class="section-subtitle">
+        A curated selection of tools and technologies I use regularly to build
+        great products.
+      </p>
+
+      <!-- ✏️  Add, remove or rename skill tags to match your own stack -->
+      <div class="skills__category reveal">
+        <p class="skills__category-title">Languages</p>
+        <div class="skills__tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">TypeScript</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">HTML &amp; CSS</span>
+        </div>
+      </div>
+
+      <div class="skills__category reveal">
+        <p class="skills__category-title">Frameworks &amp; Libraries</p>
+        <div class="skills__tags">
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Express</span>
+          <span class="skill-tag">Django</span>
+          <span class="skill-tag">Spring Boot</span>
+          <span class="skill-tag">Next.js</span>
+        </div>
+      </div>
+
+      <div class="skills__category reveal">
+        <p class="skills__category-title">Tools &amp; Platforms</p>
+        <div class="skills__tags">
+          <span class="skill-tag">Git &amp; GitHub</span>
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">AWS</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">REST APIs</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       EXPERIENCE
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="section" id="experience">
+    <div class="container">
+      <p class="section-label">Where I've worked</p>
+      <h2 class="section-title">Experience</h2>
+      <p class="section-subtitle">
+        A timeline of my professional journey and the impact I've made.
+      </p>
+
+      <!-- ✏️  Add or remove .timeline__item blocks to match your work history -->
+      <div class="timeline">
+
+        <div class="timeline__item reveal">
+          <div class="timeline__header">
+            <!-- ✏️  Replace with your job title -->
+            <span class="timeline__role">Senior Software Engineer</span>
+            <!-- ✏️  Replace with the period you worked there -->
+            <span class="timeline__period">Jan 2023 – Present</span>
+          </div>
+          <!-- ✏️  Replace with the company name (and add href if it has a website) -->
+          <p class="timeline__company">Company Name</p>
+          <ul class="timeline__description">
+            <!-- ✏️  Replace with real bullet points describing your responsibilities and achievements -->
+            <li>Led development of a microservices platform serving 1M+ daily active users.</li>
+            <li>Reduced API response time by 40% through query optimization and caching strategies.</li>
+            <li>Mentored a team of 4 junior engineers and conducted weekly code reviews.</li>
+          </ul>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__header">
+            <span class="timeline__role">Software Engineer</span>
+            <span class="timeline__period">Mar 2021 – Dec 2022</span>
+          </div>
+          <p class="timeline__company">Previous Company</p>
+          <ul class="timeline__description">
+            <li>Built and maintained RESTful APIs consumed by mobile and web clients.</li>
+            <li>Implemented automated testing, raising code coverage from 42% to 85%.</li>
+            <li>Collaborated with UX designers to ship a redesigned dashboard ahead of schedule.</li>
+          </ul>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__header">
+            <span class="timeline__role">Junior Developer</span>
+            <span class="timeline__period">Jul 2019 – Feb 2021</span>
+          </div>
+          <p class="timeline__company">First Company</p>
+          <ul class="timeline__description">
+            <li>Developed new features for an e-commerce platform used by 50K+ customers.</li>
+            <li>Integrated third-party payment gateways and shipping providers.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       PROJECTS
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="section" id="projects">
+    <div class="container">
+      <p class="section-label">What I've built</p>
+      <h2 class="section-title">Projects</h2>
+      <p class="section-subtitle">
+        A selection of personal and professional projects I'm proud of.
+      </p>
+
+      <!-- ✏️  Add, remove or update .card.project-card blocks to showcase your projects -->
+      <div class="grid-3">
+
+        <div class="card project-card reveal">
+          <div class="project-card__header">
+            <!-- ✏️  Choose a representative emoji for the project -->
+            <span class="project-card__icon">🚀</span>
+            <div class="project-card__links">
+              <!-- ✏️  Replace # with the actual GitHub and live URLs -->
+              <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="#" target="_blank" rel="noopener">Live ↗</a>
+            </div>
+          </div>
+          <!-- ✏️  Replace with the project name -->
+          <h3 class="project-card__title">Project Alpha</h3>
+          <!-- ✏️  Write a short description of the project (2–3 sentences) -->
+          <p class="project-card__description">
+            A full-stack web application that helps teams manage their projects
+            and track progress in real time with a clean, intuitive interface.
+          </p>
+          <div class="project-card__stack">
+            <!-- ✏️  List the technologies used -->
+            <span class="stack-tag">React</span>
+            <span class="stack-tag">·</span>
+            <span class="stack-tag">Node.js</span>
+            <span class="stack-tag">·</span>
+            <span class="stack-tag">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="card project-card reveal">
+          <div class="project-card__header">
+            <span class="project-card__icon">📊</span>
+            <div class="project-card__links">
+              <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Data Dashboard</h3>
+          <p class="project-card__description">
+            An analytics dashboard that visualizes business KPIs from multiple
+            data sources, with interactive charts and exportable reports.
+          </p>
+          <div class="project-card__stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">·</span>
+            <span class="stack-tag">Django</span>
+            <span class="stack-tag">·</span>
+            <span class="stack-tag">PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="card project-card reveal">
+          <div class="project-card__header">
+            <span class="project-card__icon">🤖</span>
+            <div class="project-card__links">
+              <a href="#" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="#" target="_blank" rel="noopener">Live ↗</a>
+            </div>
+          </div>
+          <h3 class="project-card__title">Automation Bot</h3>
+          <p class="project-card__description">
+            A configurable bot that automates repetitive workflows, saving
+            teams hours of manual work every week with smart scheduling.
+          </p>
+          <div class="project-card__stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">·</span>
+            <span class="stack-tag">Docker</span>
+            <span class="stack-tag">·</span>
+            <span class="stack-tag">AWS Lambda</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       EDUCATION
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="section" id="education">
+    <div class="container">
+      <p class="section-label">Academic background</p>
+      <h2 class="section-title">Education</h2>
+
+      <!-- ✏️  Add or remove .card blocks for each degree or certification -->
+      <div class="grid-2">
+
+        <div class="card reveal">
+          <div class="edu-card__header">
+            <!-- ✏️  Replace with degree name -->
+            <span class="edu-card__degree">B.Sc. Computer Science</span>
+            <!-- ✏️  Replace with the years you attended -->
+            <span class="edu-card__period">2015 – 2019</span>
+          </div>
+          <!-- ✏️  Replace with the institution name -->
+          <p class="edu-card__institution">University Name</p>
+          <!-- ✏️  Optionally add GPA, honors, or relevant coursework -->
+          <p class="edu-card__detail">GPA: 3.8 / 4.0 · Graduated with Honours</p>
+        </div>
+
+        <div class="card reveal">
+          <div class="edu-card__header">
+            <span class="edu-card__degree">AWS Certified Solutions Architect</span>
+            <span class="edu-card__period">2022</span>
+          </div>
+          <p class="edu-card__institution">Amazon Web Services</p>
+          <p class="edu-card__detail">Professional level certification — cloud architecture &amp; best practices</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       CONTACT
+  ════════════════════════════════════════════════════════════════ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <p class="section-label">Let's talk</p>
+      <h2 class="section-title">Get In Touch</h2>
+
+      <div class="contact__wrapper">
+        <div>
+          <p class="contact__text">
+            <!-- ✏️  Replace with your own contact message -->
+            Whether you have an opportunity, a question, or just want to say hi
+            — my inbox is always open. I'll do my best to get back to you
+            promptly!
+          </p>
+
+          <div class="contact__links">
+            <!-- ✏️  Replace href values and displayed text with your real details -->
+            <a href="mailto:your.email@example.com" class="contact__link">
+              <span class="contact__link-icon">✉️</span>
+              <div class="contact__link-info">
+                <strong>Email</strong>
+                <span>your.email@example.com</span>
+              </div>
+            </a>
+
+            <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener" class="contact__link">
+              <span class="contact__link-icon">🔗</span>
+              <div class="contact__link-info">
+                <strong>LinkedIn</strong>
+                <span>linkedin.com/in/your-profile</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/your-username" target="_blank" rel="noopener" class="contact__link">
+              <span class="contact__link-icon">🐙</span>
+              <div class="contact__link-info">
+                <strong>GitHub</strong>
+                <span>github.com/your-username</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick contact form (no back-end required — wire it to Formspree, EmailJS, etc.) -->
+        <div class="contact__form reveal">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Hi, I'd like to …" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <!-- ✏️  Replace "Your Name" with your name -->
+        <p class="footer__copy">© <span id="year"></span> Your Name. All rights reserved.</p>
+        <div class="footer__socials">
+          <!-- ✏️  Replace # with your real social links -->
+          <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://twitter.com/your-handle" target="_blank" rel="noopener">Twitter / X</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Inject current year automatically
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>
