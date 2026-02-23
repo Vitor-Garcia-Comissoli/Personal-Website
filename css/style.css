@@ -1039,6 +1039,8 @@ img {
   .lang-switcher {
     /* On mobile keep the switcher visible next to the hamburger */
     gap: 0.25rem;
+    margin-left: auto;
+    margin-right: 0.5rem;
   }
 
   .lang-btn {
