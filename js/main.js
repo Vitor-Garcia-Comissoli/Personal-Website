@@ -2,7 +2,7 @@
 const translations = {
   en: {
     // Navigation
-    'nav-logo':        'Vítor Garcia Comissoli<span>.</span>',
+    'nav-logo':        'Home<span>.</span>',
     'nav-about':       'About',
     'nav-skills':      'Skills',
     'nav-experience':  'Experience',
@@ -115,7 +115,7 @@ const translations = {
 
   pt: {
     // Navegação
-    'nav-logo':        'Vítor Garcia Comissoli<span>.</span>',
+    'nav-logo':        'Início<span>.</span>',
     'nav-about':       'Sobre',
     'nav-skills':      'Habilidades',
     'nav-experience':  'Experiência',
