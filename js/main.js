@@ -131,7 +131,7 @@ const translations = {
     'hero-title':         'Bacharel em Estatística & Cientista e Analista de Dados',
     'hero-description':   'Bacharel em Estatística pelo IME-USP. Ex-pesquisador de iniciação científica em Acústica Urbana na FAU USP e Líder da Equipe de Dados na IME Jr. Apaixonado por aplicar estatística a problemas do mundo real e colaborar com equipes inovadoras.',
     'hero-cta-primary':   'Entre em contato',
-    'hero-cta-secondary': 'Ver meu trabalho',
+    'hero-cta-secondary': 'Meu trabalho',
 
     // Sobre
     'about-label':    'Quem sou eu',
