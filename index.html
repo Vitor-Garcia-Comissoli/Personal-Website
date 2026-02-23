@@ -426,7 +426,8 @@
 
         <!-- Quick contact form (no back-end required — wire it to Formspree, EmailJS, etc.) -->
         <div class="contact__form reveal">
-          <form>
+          <!-- action/method provide a no-JS fallback; replace YOUR_FORM_ID here too once you have it -->
+          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
             <div class="form-group">
               <label for="name" data-i18n="form-name-label">Name</label>
               <input type="text" id="name" name="name" placeholder="Jane Doe" data-i18n-placeholder="form-name-placeholder" required />
