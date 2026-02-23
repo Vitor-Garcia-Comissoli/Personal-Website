@@ -949,12 +949,28 @@ img {
     display: none;
   }
 
+  .nav__links .nav__cta {
+    background-color: transparent;
+    color: var(--color-text-muted) !important;
+    font-weight: 500 !important;
+    border-radius: 0;
+  }
+
+  .nav__links .nav__cta:hover {
+    background-color: transparent !important;
+    color: var(--color-white) !important;
+  }
+
   .nav__hamburger {
     display: flex;
   }
 
   .section {
     padding: 3.5rem 0;
+  }
+
+  .hero {
+    padding-top: var(--nav-height);
   }
 
   .about__stats {
