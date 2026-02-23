@@ -900,6 +900,7 @@ img {
     order: -1;
     display: flex;
     justify-content: center;
+    margin-top: 3rem;
   }
 
   .avatar-ring {
