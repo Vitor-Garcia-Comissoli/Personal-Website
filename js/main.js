@@ -100,7 +100,7 @@ const translations = {
     // Contact
     'contact-label': 'Let\'s talk',
     'contact-title': 'Get In Touch',
-    'contact-text':  'Whether you have an opportunity, a question, or just want to say hi — my inbox is always open. I\'ll do my best to get back to you promptly!',
+    'contact-text':  'Whether you have an opportunity, a question, or just want to say hi, my inbox is always open. I\'ll do my best to get back to you promptly!',
     'form-name-label':        'Name',
     'form-name-placeholder':  'Jane Doe',
     'form-email-label':       'Email',
@@ -213,7 +213,7 @@ const translations = {
     // Contato
     'contact-label': 'Vamos conversar',
     'contact-title': 'Entre em Contato',
-    'contact-text':  'Seja uma oportunidade, uma dúvida ou apenas um olá — minha caixa de entrada está sempre aberta. Farei o possível para responder o mais rápido possível!',
+    'contact-text':  'Seja uma oportunidade, uma dúvida ou apenas um olá, minha caixa de entrada está sempre aberta. Farei o possível para responder o mais rápido possível!',
     'form-name-label':        'Nome',
     'form-name-placeholder':  'João Silva',
     'form-email-label':       'E-mail',
