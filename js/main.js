@@ -106,8 +106,10 @@ const translations = {
     'form-email-label':       'Email',
     'form-message-label':     'Message',
     'form-message-placeholder':'Hi, I\'d like to …',
-    'form-submit': 'Send Message',
-    'form-sent':   'Message sent ✓',
+    'form-submit':   'Send Message',
+    'form-sending':  'Sending…',
+    'form-sent':     'Message sent ✓',
+    'form-error':    'Error – please try again',
 
     // Footer
     'footer-rights': 'All rights reserved.',
@@ -219,8 +221,10 @@ const translations = {
     'form-email-label':       'E-mail',
     'form-message-label':     'Mensagem',
     'form-message-placeholder':'Olá, gostaria de…',
-    'form-submit': 'Enviar Mensagem',
-    'form-sent':   'Mensagem enviada ✓',
+    'form-submit':   'Enviar Mensagem',
+    'form-sending':  'Enviando…',
+    'form-sent':     'Mensagem enviada ✓',
+    'form-error':    'Erro – tente novamente',
 
     // Rodapé
     'footer-rights': 'Todos os direitos reservados.',
@@ -322,19 +326,46 @@ const revealObserver = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
-// ── Contact form: prevent default & show feedback ─────────────────────────────
+// ── Contact form: submit via Formspree ────────────────────────────────────────
+// To activate: create a free form at https://formspree.io pointing to
+// vitor.comissoli@gmail.com, then paste your form ID below.
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mqabznjv';
+
 const form = document.querySelector('.contact__form form');
 if (form) {
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const btn = form.querySelector('button[type="submit"]');
+    const t = translations[currentLang];
     const original = btn.textContent;
-    btn.textContent = translations[currentLang]['form-sent'] || 'Message sent ✓';
+
+    btn.textContent = t['form-sending'] || 'Sending…';
     btn.disabled = true;
-    setTimeout(() => {
-      btn.textContent = original;
+
+    try {
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+
+      if (response.ok) {
+        btn.textContent = t['form-sent'] || 'Message sent ✓';
+        form.reset();
+        setTimeout(() => {
+          btn.textContent = original;
+          btn.disabled = false;
+        }, 3000);
+      } else {
+        btn.textContent = t['form-error'] || 'Error – please try again';
+        btn.disabled = false;
+        setTimeout(() => { btn.textContent = original; }, 3000);
+      }
+    } catch (err) {
+      console.error('Form submission failed:', err);
+      btn.textContent = t['form-error'] || 'Error – please try again';
       btn.disabled = false;
-      form.reset();
-    }, 3000);
+      setTimeout(() => { btn.textContent = original; }, 3000);
+    }
   });
 }
