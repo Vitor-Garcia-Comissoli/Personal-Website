@@ -12,7 +12,7 @@ const translations = {
 
     // Hero
     'hero-badge':         'Available for opportunities',
-    'hero-title':         'Statistics Graduate & Data Analyst',
+    'hero-title':         'Statistics Graduate & Data Scientist and Analyst',
     'hero-description':   'Bachelor\'s degree in Statistics from IME-USP. Former undergraduate researcher in Urban Acoustics at FAU USP and Data Team Lead at IME Jr. Passionate about applying statistics to real-world problems and collaborating with innovative teams.',
     'hero-cta-primary':   'Get in touch',
     'hero-cta-secondary': 'View my work',
@@ -125,7 +125,7 @@ const translations = {
 
     // Hero
     'hero-badge':         'Disponível para oportunidades',
-    'hero-title':         'Bacharel em Estatística & Analista de Dados',
+    'hero-title':         'Bacharel em Estatística & Cientista e Analista de Dados',
     'hero-description':   'Bacharel em Estatística pelo IME-USP. Ex-pesquisador de iniciação científica em Acústica Urbana na FAU USP e Líder da Equipe de Dados na IME Jr. Apaixonado por aplicar estatística a problemas do mundo real e colaborar com equipes inovadoras.',
     'hero-cta-primary':   'Entre em contato',
     'hero-cta-secondary': 'Ver meu trabalho',
