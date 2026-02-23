@@ -327,14 +327,7 @@ const revealObserver = new IntersectionObserver((entries) => {
 document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
 // ── Contact form: submit via Formspree ────────────────────────────────────────
-// HOW TO ACTIVATE:
-//   1. Go to https://formspree.io and sign up for a free account.
-//   2. Click "New Form", give it a name, and set the recipient email to
-//      vitor.comissoli@gmail.com.
-//   3. Copy the 8-character form ID shown in your dashboard (e.g. "abcd1234").
-//   4. Replace YOUR_FORM_ID below with that ID and save/deploy the file.
-// ─────────────────────────────────────────────────────────────────────────────
-const FORMSPREE_FORM_ID = 'YOUR_FORM_ID'; // ← paste your Formspree form ID here
+const FORMSPREE_FORM_ID = 'mkovpqry';
 const FORMSPREE_ENDPOINT = 'https://formspree.io/f/' + FORMSPREE_FORM_ID;
 const CONTACT_EMAIL = 'vitor.comissoli@gmail.com';
 
@@ -350,12 +343,6 @@ if (form) {
     btn.disabled = true;
 
     const formData = new FormData(form);
-
-    // If the form ID has not been configured yet, skip straight to the mailto fallback.
-    if (FORMSPREE_FORM_ID === 'YOUR_FORM_ID') {
-      fallbackToMailto(formData);
-      return;
-    }
 
     try {
       const response = await fetch(FORMSPREE_ENDPOINT, {
