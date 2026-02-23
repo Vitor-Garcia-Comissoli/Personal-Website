@@ -327,9 +327,9 @@ const revealObserver = new IntersectionObserver((entries) => {
 document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
 // ── Contact form: submit via Formspree ────────────────────────────────────────
-// To activate: create a free form at https://formspree.io pointing to
-// vitor.comissoli@gmail.com, then paste your form ID below.
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mqabznjv';
+const FORMSPREE_FORM_ID = 'mkovpqry';
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/' + FORMSPREE_FORM_ID;
+const CONTACT_EMAIL = 'vitor.comissoli@gmail.com';
 
 const form = document.querySelector('.contact__form form');
 if (form) {
@@ -342,10 +342,12 @@ if (form) {
     btn.textContent = t['form-sending'] || 'Sending…';
     btn.disabled = true;
 
+    const formData = new FormData(form);
+
     try {
       const response = await fetch(FORMSPREE_ENDPOINT, {
         method: 'POST',
-        body: new FormData(form),
+        body: formData,
         headers: { 'Accept': 'application/json' }
       });
 
@@ -357,15 +359,22 @@ if (form) {
           btn.disabled = false;
         }, 3000);
       } else {
-        btn.textContent = t['form-error'] || 'Error – please try again';
-        btn.disabled = false;
-        setTimeout(() => { btn.textContent = original; }, 3000);
+        fallbackToMailto(formData);
       }
     } catch (err) {
       console.error('Form submission failed:', err);
-      btn.textContent = t['form-error'] || 'Error – please try again';
+      fallbackToMailto(formData);
+    }
+
+    function fallbackToMailto(data) {
+      const name    = data.get('name')    || '';
+      const email   = data.get('email')   || '';
+      const message = data.get('message') || '';
+      const subject = encodeURIComponent(`Message from ${name}`);
+      const body    = encodeURIComponent(`${message}\n\nFrom: ${email}`);
+      window.location.href = `mailto:${CONTACT_EMAIL}?subject=${subject}&body=${body}`;
+      btn.textContent = original;
       btn.disabled = false;
-      setTimeout(() => { btn.textContent = original; }, 3000);
     }
   });
 }
