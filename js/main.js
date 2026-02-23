@@ -22,8 +22,8 @@ const translations = {
     'about-title':    'About Me',
     'about-p1':       'As a statistics graduate from IME USP, I possess a great interest in applying statistics to address real-world problems. Drawing from my previous background as both a team member and team lead at IME Jr (a junior consulting company run by students), coupled with my academic journey at IME-USP, my involvement as an undergraduate researcher, and the experience I\'ve acquired as an intern at Maxxi (a tech consulting company), I\'m now looking to apply all that acquired knowledge to further develop my data analysis skills and collaborate with innovative and diverse teams.',
     'about-p2':       'I\'m fluent in English (C2 Cambridge certification) and have professional working proficiency in Spanish. I enjoy blending mathematical thinking with practical problem-solving to deliver meaningful insights from data.',
-    'stat-years':     'Years Experience',
-    'stat-companies': 'Companies',
+    'stat-years':     'Years of Experience',
+    'stat-companies': 'Companies/Institutions',
     'stat-certs':     'Certifications',
     'stat-pub':       'Publication',
 
@@ -136,7 +136,7 @@ const translations = {
     'about-p1':       'Como bacharel em estatística pelo IME USP, possuo um grande interesse em aplicar a estatística para resolver problemas do mundo real. Com base na minha experiência anterior tanto como membro quanto como líder de equipe de dados da IME Jr (empresa júnior de consultoria gerida por estudantes), juntamente com minha trajetória acadêmica no IME-USP, minha participação como pesquisador de iniciação científica e com a experiência adquirida como estagiário na Maxxi (empresa de consultoria no ramo de tecnologia), estou buscando formas de aplicar todo esse conhecimento previamente adquirido para aprimorar minhas habilidades de análise de dados e colaborar com equipes inovadoras e diversas.',
     'about-p2':       'Sou fluente em inglês (Certificado C2 de Cambridge) e tenho proficiência profissional em espanhol. Gosto de combinar o pensamento matemático com a resolução prática de problemas para extrair insights significativos dos dados.',
     'stat-years':     'Anos de Experiência',
-    'stat-companies': 'Empresas',
+    'stat-companies': 'Empresas/Instituições',
     'stat-certs':     'Certificações',
     'stat-pub':       'Publicação',
 
