@@ -25,7 +25,7 @@ const translations = {
     'stat-years':     'Years of Experience',
     'stat-companies': 'Companies or Institutions',
     'stat-certs':     'Certifications',
-    'stat-pub':       'Publication',
+    'stat-pub':       'International Publication',
 
     // Skills
     'skills-label':    'What I work with',
@@ -147,7 +147,7 @@ const translations = {
     'stat-years':     'Anos de Experiência',
     'stat-companies': 'Empresas ou Instituições',
     'stat-certs':     'Certificações',
-    'stat-pub':       'Publicação',
+    'stat-pub':       'Publicação Internacional',
 
     // Habilidades
     'skills-label':    'Com o que trabalho',
