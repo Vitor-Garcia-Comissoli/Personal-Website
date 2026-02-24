@@ -511,7 +511,7 @@ img {
   background: linear-gradient(135deg, var(--color-surface-2), var(--color-surface));
   border-radius: var(--radius);
   border: 1px solid var(--color-border);
-  aspect-ratio: 4/5;
+  aspect-ratio: 853/1280;
   display: flex;
   align-items: center;
   justify-content: center;
