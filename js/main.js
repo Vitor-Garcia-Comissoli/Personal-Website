@@ -93,9 +93,9 @@ const translations = {
     'edu-label':        'Academic background',
     'edu-title':        'Education',
     'edu-imesp-degree': 'Bachelor\'s degree in Statistics',
-    'edu-imesp-detail': 'Specialisation in applied statistics, statistical computing, and data analysis.',
+    'edu-imesp-detail': 'Specialization in Theoretical Statistics, Statistical Computing (Python, R, and SQL), and Data Analysis / Modeling. I also engaged in other academic activities alongside my undergraduate studies, such as participating in a Junior Enterprise (IME Jr), conducting Undergraduate Research through a PIBIC scholarship (FAU-USP), and volunteering (aMostra Estatística).',
     'edu-school-degree':'High School Diploma',
-    'edu-school-detail':'São Paulo, Brazil',
+    'edu-school-detail':'Beyond the standard curriculum, I attended three years of Spanish, as well as several other extracurricular activities, such as Biotechnology and Chemistry laboratories, “Power of Curves” and “Galileo Galilei” (both involving physics and mathematics), Financial Education, and 3D Printing Modeling. I also participated in (and received awards in) several Brazilian Academic Olympiads, such as OBMEP, OBA, and ONHB.',
 
     // Contact
     'contact-label': 'Let\'s talk',
@@ -209,9 +209,9 @@ const translations = {
     'edu-label':        'Histórico acadêmico',
     'edu-title':        'Educação',
     'edu-imesp-degree': 'Bacharel em Estatística',
-    'edu-imesp-detail': 'Especialização em estatística aplicada, computação estatística e análise de dados.',
+    'edu-imesp-detail': 'Especialização em Estatística Teórica, Computação Estatística (Python, R e SQL) e Análise / Modelagem de Dados. Realizei também outras atividades acadêmicas em paralelo a graduação, como a participação na Empresa Júnior (IME Jr), Iniciação Científica com bolsa PIBIC (FAU-USP) e Voluntariado (aMostra Estatística).',
     'edu-school-degree':'Diploma de Ensino Médio',
-    'edu-school-detail':'São Paulo, Brasil',
+    'edu-school-detail':'Além da grade comum, realizei 3 anos de Espanhol, assim como diversas outras atividades extra-curriculares, como Laboratórios de Biotecnologia e de Química, "Poder das Curvas" e "Gallileu Galillei" (ambos envolvendo física e matemática), Educação Financeira e Modelagem para impressão 3D, além da participação (e premiação) em diversas Olimpíadas Brasileiras, como a OBMEP, OBA e a ONHB.',
 
     // Contato
     'contact-label': 'Vamos conversar',
