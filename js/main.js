@@ -13,7 +13,8 @@ const translations = {
     // Hero
     'hero-badge':         'Available for opportunities',
     'hero-title':         'Statistics Graduate & Data Scientist and Analyst',
-    'hero-description':   'Bachelor\'s degree in Statistics from IME-USP. Former undergraduate researcher in Urban Acoustics at FAU USP and Data Team Lead at IME Jr. Passionate about applying statistics to real-world problems and collaborating with innovative teams.',
+    //'hero-description':   'Bachelor\'s degree in Statistics from IME-USP. Former undergraduate researcher in Urban Acoustics at FAU USP and Data Team Lead at IME Jr. Passionate about applying statistics to real-world problems and collaborating with innovative teams.',
+    'hero-description':   '· Bachelor\'s degree in Statistics from IME-USP. \n · Former undergraduate researcher in Urban Acoustics at FAU USP \n · Former Data & Computing Team Member, HR Director, and Data Team Lead at IME Jr. \n · Passionate about applying statistics to real-world problems and collaborating with innovative teams.',
     'hero-cta-primary':   'Get in touch',
     'hero-cta-secondary': 'View my work',
 
@@ -135,7 +136,8 @@ const translations = {
     // Hero
     'hero-badge':         'Disponível para oportunidades',
     'hero-title':         'Bacharel em Estatística & Cientista e Analista de Dados',
-    'hero-description':   'Bacharel em Estatística pelo IME-USP. Ex-pesquisador de iniciação científica em Acústica Urbana na FAU USP e Líder da Equipe de Dados na IME Jr. Apaixonado por aplicar estatística a problemas do mundo real e colaborar com equipes inovadoras.',
+    //'hero-description':   'Bacharel em Estatística pelo IME-USP. Ex-pesquisador de iniciação científica em Acústica Urbana na FAU USP e Líder da Equipe de Dados na IME Jr. Apaixonado por aplicar estatística a problemas do mundo real e colaborar com equipes inovadoras.',
+    'hero-description':   '· Bacharel em Estatística pelo IME-USP. \n · Ex-pesquisador de Iniciação Científica em Acústica Urbana na FAU USP \n · Ex-membro dos Times de Dados & Computação, Diretor de RH, e Líder da Equipe de Dados na IME Jr. \n · Tenho profundo interesse em aplicar estatística a problemas do mundo real e colaborar com equipes inovadoras.',
     'hero-cta-primary':   'Contato',
     'hero-cta-secondary': 'Veja meu trabalho',
 
