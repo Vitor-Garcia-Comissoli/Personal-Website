@@ -142,7 +142,7 @@ const translations = {
     //'hero-description':   'Bacharel em Estatística pelo IME-USP. Ex-pesquisador de iniciação científica em Acústica Urbana na FAU USP e Líder da Equipe de Dados na IME Jr. Apaixonado por aplicar estatística a problemas do mundo real e colaborar com equipes inovadoras.',
     'hero-desc-li1':      'Bacharel em Estatística pelo IME-USP.',
     'hero-desc-li2':      'Ex-pesquisador de Iniciação Científica em Acústica Urbana na FAU USP.',
-    'hero-desc-li3':      'Ex-membro dos Times de Dados & Computação, Diretor de RH, e Líder da Equipe de Dados na IME Jr.',
+    'hero-desc-li3':      'Ex-membro dos Times de Dados & Computação, Diretor de RH, e Líder do Time de Dados na IME Jr.',
     'hero-desc-li4':      'Tenho profundo interesse em aplicar estatística a problemas do mundo real e colaborar com equipes inovadoras.',
     'hero-cta-primary':   'Contato',
     'hero-cta-secondary': 'Veja meu trabalho',
