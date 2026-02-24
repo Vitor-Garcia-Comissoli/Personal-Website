@@ -746,6 +746,13 @@ img {
   font-size: 0.9rem;
   color: var(--color-primary);
   font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.edu-card__location {
+  font-size: 0.85rem;
+  color: var(--color-primary);
+  font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
