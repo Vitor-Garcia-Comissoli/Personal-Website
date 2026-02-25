@@ -728,6 +728,71 @@ img {
 }
 
 /* =========================================
+   Research Grid (Publications & Certifications)
+   ========================================= */
+.research-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* =========================================
+   Cert List (Technical Certifications card)
+   ========================================= */
+.cert-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+  margin-bottom: 1.25rem;
+}
+
+.cert-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 0.9rem;
+  background-color: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  font-size: 0.875rem;
+  font-weight: 500;
+  min-height: 44px;
+  transition: border-color var(--transition), background-color var(--transition), color var(--transition);
+}
+
+.cert-btn:hover {
+  border-color: var(--color-primary);
+  background-color: rgba(37, 99, 235, 0.1);
+  color: var(--color-white);
+}
+
+.cert-btn small {
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--color-text-muted);
+  margin-left: 0.3rem;
+}
+
+.cert-btn:hover small {
+  color: var(--color-accent);
+}
+
+.cert-btn__arrow {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+  margin-left: 0.75rem;
+  transition: color var(--transition);
+}
+
+.cert-btn:hover .cert-btn__arrow {
+  color: var(--color-primary);
+}
+
+/* =========================================
    Education Section
    ========================================= */
 .edu-card__header {

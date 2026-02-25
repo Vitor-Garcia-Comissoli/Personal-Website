@@ -277,47 +277,51 @@
         Selected academic publications and professional certifications I've earned.
       </p>
 
-      <div class="grid-3">
+      <div class="research-grid">
 
-        <div class="card project-card reveal">
-          <div class="project-card__header">
-            <span class="project-card__icon">📄</span>
-            <div class="project-card__links">
-              <a href="https://www.sciencedirect.com/journal/applied-acoustics/vol/218/suppl/C" target="_blank" rel="noopener" data-i18n="research-journal-link">Journal ↗</a>
-              <a href="https://www.sciencedirect.com/science/article/abs/pii/S0003682X24000318" target="_blank" rel="noopener" data-i18n="research-paper-link">Paper ↗</a>
+        <div class="grid-2">
+
+          <div class="card project-card reveal">
+            <div class="project-card__header">
+              <span class="project-card__icon">📄</span>
+              <div class="project-card__links">
+                <a href="https://www.sciencedirect.com/journal/applied-acoustics/vol/218/suppl/C" target="_blank" rel="noopener" data-i18n="research-journal-link">Journal ↗</a>
+                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0003682X24000318" target="_blank" rel="noopener" data-i18n="research-paper-link">Paper ↗</a>
+              </div>
+            </div>
+            <h3 class="project-card__title" data-i18n="pub-title">Scientific Publication</h3>
+            <p class="project-card__description" data-i18n-html="pub-description">
+              "A methodological approach for translating soundscape attributes using Twitter data: A Portuguese language case study" — <em>Applied Acoustics</em> Journal, Volume 218, March 2024.
+            </p>
+            <div class="project-card__stack">
+              <span class="stack-tag">Urban Acoustics</span>
+              <span class="stack-tag">·</span>
+              <span class="stack-tag">NLP</span>
+              <span class="stack-tag">·</span>
+              <span class="stack-tag">Statistics</span>
             </div>
           </div>
-          <h3 class="project-card__title" data-i18n="pub-title">Scientific Publication</h3>
-          <p class="project-card__description" data-i18n-html="pub-description">
-            "A methodological approach for translating soundscape attributes using Twitter data: A Portuguese language case study" — <em>Applied Acoustics</em> Journal, Volume 218, March 2024.
-          </p>
-          <div class="project-card__stack">
-            <span class="stack-tag">Urban Acoustics</span>
-            <span class="stack-tag">·</span>
-            <span class="stack-tag">NLP</span>
-            <span class="stack-tag">·</span>
-            <span class="stack-tag">Statistics</span>
-          </div>
-        </div>
 
-        <div class="card project-card reveal">
-          <div class="project-card__header">
-            <span class="project-card__icon">🎓</span>
-            <div class="project-card__links">
-              <a href="assets/Cambridge Certificate.pdf" target="_blank" rel="noopener" data-i18n="lang-cert-link">Certificate ↗</a>
+          <div class="card project-card reveal">
+            <div class="project-card__header">
+              <span class="project-card__icon">🎓</span>
+              <div class="project-card__links">
+                <a href="assets/Cambridge Certificate.pdf" target="_blank" rel="noopener" data-i18n="lang-cert-link">Certificate ↗</a>
+              </div>
+            </div>
+            <h3 class="project-card__title" data-i18n="lang-cert-title">Language Certification</h3>
+            <p class="project-card__description" data-i18n="lang-cert-description">
+              Certificate in Advanced English (CAE) – Level C2, issued by Cambridge Assessment English. Awarded Grade A (highest distinction) with an overall score of 200/210 in June 2019.
+            </p>
+            <div class="project-card__stack">
+              <span class="stack-tag">Cambridge</span>
+              <span class="stack-tag">·</span>
+              <span class="stack-tag">C2 Level</span>
+              <span class="stack-tag">·</span>
+              <span class="stack-tag">Grade A</span>
             </div>
           </div>
-          <h3 class="project-card__title" data-i18n="lang-cert-title">Language Certification</h3>
-          <p class="project-card__description" data-i18n="lang-cert-description">
-            Certificate in Advanced English (CAE) – Level C2, issued by Cambridge Assessment English. Awarded Grade A (highest distinction) with an overall score of 200/210 in June 2019.
-          </p>
-          <div class="project-card__stack">
-            <span class="stack-tag">Cambridge</span>
-            <span class="stack-tag">·</span>
-            <span class="stack-tag">C2 Level</span>
-            <span class="stack-tag">·</span>
-            <span class="stack-tag">Grade A</span>
-          </div>
+
         </div>
 
         <div class="card project-card reveal">
@@ -325,9 +329,32 @@
             <span class="project-card__icon">📊</span>
           </div>
           <h3 class="project-card__title" data-i18n="tech-cert-title">Technical Certifications</h3>
-          <p class="project-card__description" data-i18n-html="tech-cert-description">
-            Certificate in R for Data Science: Analysis &amp; Visualization (LinkedIn Learning) · Certificate in Applied Machine Learning (Hype – Data Science) · Certificate in Business Intelligence (Hype – Data Science) · Certificate in RMarkdown (IME Jr).
-          </p>
+          <ul class="cert-list">
+            <li>
+              <a href="assets/Certificate of Completion - R for Data Science Analysis and Visualization.pdf" target="_blank" rel="noopener" class="cert-btn">
+                <span data-i18n-html="tech-cert-r">R for Data Science: Analysis &amp; Visualization <small>(LinkedIn Learning)</small></span>
+                <span class="cert-btn__arrow">↗</span>
+              </a>
+            </li>
+            <li>
+              <a href="assets/Certificate in Applied Machine Learning.pdf" target="_blank" rel="noopener" class="cert-btn">
+                <span data-i18n-html="tech-cert-ml">Applied Machine Learning <small>(Hype – Data Science)</small></span>
+                <span class="cert-btn__arrow">↗</span>
+              </a>
+            </li>
+            <li>
+              <a href="assets/Certificate in Business Intelligence.pdf" target="_blank" rel="noopener" class="cert-btn">
+                <span data-i18n-html="tech-cert-bi">Business Intelligence <small>(Hype – Data Science)</small></span>
+                <span class="cert-btn__arrow">↗</span>
+              </a>
+            </li>
+            <li>
+              <a href="assets/Certificate of completion - RMarkdown Minicourse.pdf" target="_blank" rel="noopener" class="cert-btn">
+                <span data-i18n-html="tech-cert-rmd">RMarkdown Minicourse <small>(IME Jr)</small></span>
+                <span class="cert-btn__arrow">↗</span>
+              </a>
+            </li>
+          </ul>
           <div class="project-card__stack">
             <span class="stack-tag">R</span>
             <span class="stack-tag">·</span>

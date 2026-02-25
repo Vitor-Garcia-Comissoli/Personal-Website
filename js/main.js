@@ -94,7 +94,10 @@ const translations = {
     'lang-cert-title':        'Language Certification',
     'lang-cert-description':  'Certificate in Advanced English (CAE) – Level C2, issued by Cambridge Assessment English. Awarded Grade A (highest distinction) with an overall score of 200/210 in June 2019.',
     'tech-cert-title':        'Technical Certifications',
-    'tech-cert-description':  'Certificate in R for Data Science: Analysis &amp; Visualization (LinkedIn Learning) · Certificate in Applied Machine Learning (Hype – Data Science) · Certificate in Business Intelligence (Hype – Data Science) · Certificate in RMarkdown (IME Jr).',
+    'tech-cert-r':            'R for Data Science: Analysis &amp; Visualization <small>(LinkedIn Learning)</small>',
+    'tech-cert-ml':           'Applied Machine Learning <small>(Hype – Data Science)</small>',
+    'tech-cert-bi':           'Business Intelligence <small>(Hype – Data Science)</small>',
+    'tech-cert-rmd':          'RMarkdown Minicourse <small>(IME Jr)</small>',
 
     // Education
     'edu-label':        'Academic background',
@@ -223,7 +226,10 @@ const translations = {
     'lang-cert-title':        'Certificado de Idioma',
     'lang-cert-description':  'Certificado em Inglês Avançado (CAE) – Nível C2, emitido pela Cambridge Assessment English. Nota A (distinção máxima) com pontuação geral de 200/210 em Junho de 2019.',
     'tech-cert-title':        'Certificações Técnicas',
-    'tech-cert-description':  'Certificado em R para Data Science: Análise &amp; Visualização (LinkedIn Learning) · Certificado em Machine Learning Aplicado (Hype – Data Science) · Certificado em Business Intelligence (Hype – Data Science) · Certificado em RMarkdown (IME Jr).',
+    'tech-cert-r':            'R para Data Science: Análise &amp; Visualização <small>(LinkedIn Learning)</small>',
+    'tech-cert-ml':           'Machine Learning Aplicado <small>(Hype – Data Science)</small>',
+    'tech-cert-bi':           'Business Intelligence <small>(Hype – Data Science)</small>',
+    'tech-cert-rmd':          'Minicurso de RMarkdown <small>(IME Jr)</small>',
 
     // Educação
     'edu-label':        'Histórico acadêmico',
