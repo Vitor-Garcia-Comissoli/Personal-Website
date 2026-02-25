@@ -91,7 +91,7 @@ const translations = {
     'pub-description':   '"A methodological approach for translating soundscape attributes using Twitter data: A Portuguese language case study" — <em>Applied Acoustics</em> Journal, Volume 218, March 2024.',
     'lang-cert-link':         'Certificate ↗',
     'lang-cert-title':        'Language Certification',
-    'lang-cert-description':  'Certificate in Advanced English (CAE) – Level C2, issued by Cambridge Assessment English. Awarded Grade A (highest distinction) with an overall score of 200/210 in June 2019. Skill breakdown: Reading 208 · Use of English 196 · Writing 193 · Listening 210 · Speaking 195.',
+    'lang-cert-description':  'Certificate in Advanced English (CAE) – Level C2, issued by Cambridge Assessment English. Awarded Grade A (highest distinction) with an overall score of 200/210 in June 2019.',
     'tech-cert-title':        'Technical Certifications',
     'tech-cert-description':  'Certificate in R for Data Science: Analysis &amp; Visualization (LinkedIn Learning) · Certificate in Applied Machine Learning (Hype – Data Science) · Certificate in Business Intelligence (Hype – Data Science) · Certificate in RMarkdown (IME Jr).',
 
@@ -219,7 +219,7 @@ const translations = {
     'pub-description':   '"Uma abordagem metodológica para tradução de atributos de paisagem sonora usando dados do Twitter: Um estudo de caso em língua portuguesa" — <em>Applied Acoustics</em> Journal, Volume 218, Março de 2024.',
     'lang-cert-link':         'Certificado ↗',
     'lang-cert-title':        'Certificado de Idioma',
-    'lang-cert-description':  'Certificado em Inglês Avançado (CAE) – Nível C2, emitido pela Cambridge Assessment English. Nota A (distinção máxima) com pontuação geral de 200/210 em junho de 2019. Desempenho por habilidade: Leitura 208 · Uso do Inglês 196 · Escrita 193 · Compreensão auditiva 210 · Expressão oral 195.',
+    'lang-cert-description':  'Certificado em Inglês Avançado (CAE) – Nível C2, emitido pela Cambridge Assessment English. Nota A (distinção máxima) com pontuação geral de 200/210 em junho de 2019.',
     'tech-cert-title':        'Certificações Técnicas',
     'tech-cert-description':  'Certificado em R para Data Science: Análise &amp; Visualização (LinkedIn Learning) · Certificado em Machine Learning Aplicado (Hype – Data Science) · Certificado em Business Intelligence (Hype – Data Science) · Certificado em RMarkdown (IME Jr).',
 
