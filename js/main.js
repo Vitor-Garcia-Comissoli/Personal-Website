@@ -93,7 +93,7 @@ const translations = {
     // My Portfolio
     'research-label':    'Publications & Certifications',
     'research-title':    'My Portfolio',
-    'research-subtitle': 'Selected academic publications and professional certifications I\'ve earned.',
+    'research-subtitle': 'Academic publications and professional certifications I\'ve earned.',
     'research-journal-link': 'Journal ↗',
     'research-paper-link':  'Paper ↗',
     'pub-title':         'Scientific Publication',
@@ -238,7 +238,7 @@ const translations = {
     // Meu Portfólio
     'research-label':    'Publicações & Certificações',
     'research-title':    'Meu Portfólio',
-    'research-subtitle': 'Publicações acadêmicas e certificações profissionais selecionadas.',
+    'research-subtitle': 'Publicações acadêmicas e certificações profissionais.',
     'research-journal-link': 'Periódico ↗',
     'research-paper-link':  'Artigo ↗',
     'pub-title':         'Publicação Científica',
