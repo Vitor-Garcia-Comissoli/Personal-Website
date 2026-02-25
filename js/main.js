@@ -234,8 +234,8 @@ const translations = {
     'exp-vol-role':    'Voluntário de Marketing e Audiovisual',
     'exp-vol-period':  'Março 2024 – Novembro 2024',
     'exp-vol-company': 'XVII aMostra Estatística IME-USP · São Paulo, Brasil',
-    'exp-vol-li1':     'Atuou na equipe de marketing e audiovisual da XVII aMostra Estatística, um importante evento de estatística no IME-USP.',
-    'exp-vol-li2':     'Promoveu ativamente o evento tanto para aumentar a conscientização sobre a importância da Estatística quanto para divulgar a profissão a um público mais amplo.',
+    'exp-vol-li1':     'Atuei na equipe de marketing e audiovisual da XVII aMostra Estatística, um importante evento de estatística no IME-USP.',
+    'exp-vol-li2':     'Promovi ativamente o evento tanto para aumentar a conscientização sobre a importância da Estatística quanto para divulgar a profissão a um público mais amplo.',
 
     // Meu Portfólio
     'research-label':    'Publicações & Certificações',
