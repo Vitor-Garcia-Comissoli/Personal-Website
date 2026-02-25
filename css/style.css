@@ -489,6 +489,13 @@ img {
   display: block;
   text-decoration: none;
   color: inherit;
+  transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+}
+
+.stat:hover {
+  border-color: var(--color-primary);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
 }
 
 .stat__number {
