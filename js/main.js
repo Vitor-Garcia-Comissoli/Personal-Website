@@ -6,7 +6,7 @@ const translations = {
     'nav-about':       'About',
     'nav-skills':      'Skills',
     'nav-experience':  'Experience',
-    'nav-research':    'Research',
+    'nav-research':    'My Portfolio',
     'nav-education':   'Education',
     'nav-contact':     'Contact',
 
@@ -90,8 +90,8 @@ const translations = {
     'exp-vol-company': 'XVII aMostra Estatística IME-USP · São Paulo, Brazil',
     'exp-vol-li1':     'Volunteered in the marketing and audiovisual team for the XVII aMostra Estatística, a major statistics event at IME-USP.',
 
-    // Research & Certifications
-    'research-label':    'Research & credentials',
+    // My Portfolio
+    'research-label':    'My Portfolio',
     'research-title':    'Publications & Certifications',
     'research-subtitle': 'Selected academic publications and professional certifications I\'ve earned.',
     'research-journal-link': 'Journal ↗',
@@ -151,7 +151,7 @@ const translations = {
     'nav-about':       'Sobre',
     'nav-skills':      'Habilidades',
     'nav-experience':  'Experiência',
-    'nav-research':    'Pesquisa',
+    'nav-research':    'Meu Portifólio',
     'nav-education':   'Educação',
     'nav-contact':     'Contato',
 
@@ -235,8 +235,8 @@ const translations = {
     'exp-vol-company': 'XVII aMostra Estatística IME-USP · São Paulo, Brasil',
     'exp-vol-li1':     'Atuou na equipe de marketing e audiovisual da XVII aMostra Estatística, um importante evento de estatística no IME-USP.',
 
-    // Pesquisa & Certificações
-    'research-label':    'Pesquisa & credenciais',
+    // Meu Portifólio
+    'research-label':    'Meu Portifólio',
     'research-title':    'Publicações & Certificações',
     'research-subtitle': 'Publicações acadêmicas e certificações profissionais selecionadas.',
     'research-journal-link': 'Periódico ↗',
