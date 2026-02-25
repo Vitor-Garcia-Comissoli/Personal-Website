@@ -107,6 +107,10 @@ const translations = {
     'tech-cert-ml':           'Applied Machine Learning <small>(Hype – Data Science)</small>',
     'tech-cert-bi':           'Business Intelligence <small>(Hype – Data Science)</small>',
     'tech-cert-rmd':          'RMarkdown Minicourse <small>(IME Jr)</small>',
+    'pub-tag-acoustics':      'Urban Acoustics',
+    'pub-tag-statistics':     'Statistics',
+    'lang-cert-tag-level':    'C2 Level',
+    'lang-cert-tag-grade':    'Grade A',
 
     // Education
     'edu-label':        'Academic background',
@@ -248,6 +252,10 @@ const translations = {
     'tech-cert-ml':           'Machine Learning Aplicado <small>(Hype – Data Science)</small>',
     'tech-cert-bi':           'Business Intelligence <small>(Hype – Data Science)</small>',
     'tech-cert-rmd':          'Minicurso de RMarkdown <small>(IME Jr)</small>',
+    'pub-tag-acoustics':      'Acústica Urbana',
+    'pub-tag-statistics':     'Estatística',
+    'lang-cert-tag-level':    'Nível C2',
+    'lang-cert-tag-grade':    'Nota A',
 
     // Educação
     'edu-label':        'Histórico acadêmico',
