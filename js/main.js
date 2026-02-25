@@ -18,6 +18,7 @@ const translations = {
     'hero-desc-li2':      'Former undergraduate researcher in Urban Acoustics at FAU USP.',
     'hero-desc-li3':      'Former Data & Computing Team Member, HR Director, and Data Team Lead at IME Jr.',
     'hero-desc-li4':      'Passionate about applying statistics to real-world problems and collaborating with innovative teams.',
+    'hero-desc-li5':      'Former Data Analytics intern at Maxxi, a consulting company.',
     'hero-cta-primary':   'Get in touch',
     'hero-cta-secondary': 'View my work',
 
@@ -144,6 +145,7 @@ const translations = {
     'hero-desc-li2':      'Ex-pesquisador de Iniciação Científica em Acústica Urbana na FAU USP.',
     'hero-desc-li3':      'Ex-membro dos Times de Dados & Computação, Diretor de RH, e Líder do Time de Dados na IME Jr.',
     'hero-desc-li4':      'Tenho profundo interesse em aplicar estatística a problemas do mundo real e colaborar com equipes inovadoras.',
+    'hero-desc-li5':      'Ex-estagiário de Analytics na Maxxi, uma empresa de consultoria.',
     'hero-cta-primary':   'Contato',
     'hero-cta-secondary': 'Veja meu trabalho',
 
