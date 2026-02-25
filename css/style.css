@@ -594,6 +594,21 @@ img {
   border-radius: 2px;
 }
 
+.timeline__category {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: 1.25rem;
+  margin-top: 0.5rem;
+  padding-left: 0;
+}
+
+.timeline__category:not(:first-child) {
+  margin-top: 2rem;
+}
+
 .timeline__item {
   position: relative;
   margin-bottom: 2.5rem;
