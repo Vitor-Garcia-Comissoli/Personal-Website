@@ -238,7 +238,7 @@ const translations = {
     // Meu Portfólio
     'research-label':    'Publicações & Certificações',
     'research-title':    'Meu Portfólio',
-    'research-subtitle': 'Publicações acadêmicas e certificações profissionais.',
+    'research-subtitle': 'Minhas publicações acadêmicas e certificações profissionais.',
     'research-journal-link': 'Periódico ↗',
     'research-paper-link':  'Artigo ↗',
     'pub-title':         'Publicação Científica',
