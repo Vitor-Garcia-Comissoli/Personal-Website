@@ -221,7 +221,7 @@ const translations = {
     'pub-description':   '"Uma abordagem metodológica para tradução de atributos de paisagem sonora usando dados do Twitter: Um estudo de caso em língua portuguesa" — <em>Applied Acoustics</em> Journal, Volume 218, Março de 2024.',
     'lang-cert-link':         'Certificado ↗',
     'lang-cert-title':        'Certificado de Idioma',
-    'lang-cert-description':  'Certificado em Inglês Avançado (CAE) – Nível C2, emitido pela Cambridge Assessment English. Nota A (distinção máxima) com pontuação geral de 200/210 em junho de 2019.',
+    'lang-cert-description':  'Certificado em Inglês Avançado (CAE) – Nível C2, emitido pela Cambridge Assessment English. Nota A (distinção máxima) com pontuação geral de 200/210 em Junho de 2019.',
     'tech-cert-title':        'Certificações Técnicas',
     'tech-cert-description':  'Certificado em R para Data Science: Análise &amp; Visualização (LinkedIn Learning) · Certificado em Machine Learning Aplicado (Hype – Data Science) · Certificado em Business Intelligence (Hype – Data Science) · Certificado em RMarkdown (IME Jr).',
 
