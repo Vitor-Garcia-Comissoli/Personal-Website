@@ -251,7 +251,7 @@ const translations = {
     'exp-imejr-li5':     'Auxiliou também na criação do IMEnsina, um Cursinho Popular financiado pela IME Jr.',
     'exp-imejr-role3':   'Membro das Equipes de Dados & Computação',
     'exp-imejr-period3': 'Mai 2022 – Jan 2023',
-    'exp-imejr-li3':     'Realizou projetos de análise de dados e consultoria estatística para clientes externos, bem como trabalhou com UX-UI para Planejamento de Website a fim de estabelecer um portfólio interno de projetos.',
+    'exp-imejr-li3':     'Realizou projetos de análise de dados e consultoria estatística para clientes externos, bem como trabalhou com UX-UI para Planejamento de Websites a fim de estabelecer um portfólio interno de projetos.',
     'exp-imejr-li4':     'Gerenciou um projeto de parceria entre IME Jr e EPEP USP sobre as intenções de voto de estudantes e instituições nas Eleições Presidenciais Brasileiras de 2022.',
     'exp-vol-role':    'Voluntário de Marketing e Audiovisual',
     'exp-vol-period':  'Março 2024 – Novembro 2024',
