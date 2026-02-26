@@ -247,7 +247,7 @@ const translations = {
     'exp-imejr-li6':     'Gerenciei o maior e mais importante projeto da história da empresa júnior, uma colaboração entre IME Jr, Poli Jr e ConectCar sobre predição de dados.',
     'exp-imejr-role2':   'Diretor de Recursos Humanos',
     'exp-imejr-period2': 'Jan 2023 – Jul 2023',
-    'exp-imejr-li2':     'Supervisionei o processo de recrutamento, a integração e a gestão de pessoas para a totalidade da empresa júnior.',
+    'exp-imejr-li2':     'Supervisionei o processo de recrutamento, integração e gestão de pessoas para a totalidade da empresa júnior.',
     'exp-imejr-li5':     'Auxiliei também na criação do IMEnsina, um Cursinho Popular financiado pela IME Jr.',
     'exp-imejr-role3':   'Membro das Equipes de Dados & Computação',
     'exp-imejr-period3': 'Mai 2022 – Jan 2023',
